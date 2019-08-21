@@ -1,5 +1,12 @@
 Day2
 ----
+downlaod all the training document from below path:
+github.com/angularex
+
+mine
+
+github.com/gprakash100/myangular
+
 1) convert ts to js
     -> tsc -w
 2) to generate the tsconfig.ts
