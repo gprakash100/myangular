@@ -1,0 +1,58 @@
+Day2
+----
+1) convert ts to js
+    -> tsc -w
+2) to generate the tsconfig.ts
+    -> tsc -init (will genereate the tsconfig.json)
+2) install express server
+    -> npm install i express
+3) start the server
+    -> create a file server.js
+    -> node server.js
+
+    angular install
+    -------------=
+    npm i -g @angular/cli
+
+    version
+    ------
+    ng v
+    hello world prg
+    ----------------
+    1) ng new step1-helloworld
+
+    2) navigate to step1-helloworld
+
+    3) ng serve -> start the server
+
+    flow
+    ----
+    everthing have to configured in angular.json
+        -> index.html,source folder can be changed here
+        asserts -> to put all the images required for the project
+        styles -> css can be applied here
+        scripts -> js can be applied here
+        aot -> 
+        prefix -> app.component we can use this prefix or every where we can use this prefix in the project
+    index.html -> main.ts -> AppModule ->
+
+    create a new component
+    ----------------------
+    1) create a new component in app folder (city.component.ts)
+    will have selector : 'app-citi',
+    template:'<h1>Hello from city component</h1>'
+    2) add this component in app.module.ts
+        ->declarations and bootstrap
+    3) add it in index.html <app-citi></app-citi>
+
+    4) for tag attribute we have use [] and function in tag ()
+
+ng g application step1binding
+
+ng serve --project <project name> --> to run the specfic project in an application
+
+<input [(ngModel)]="title" type="text">
+to use above ngModel we need to import FormModel in app.Module.ts file
+
+to create a component
+ng g c komali --project=step1binding --flat -t -s -skiptests=true
